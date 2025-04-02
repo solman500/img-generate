@@ -18,13 +18,13 @@ const Hero = () => {
 
     setLoading(true);
     const options = {
-        method: 'POST',
-        url: 'https://ai-text-to-image-generator-api-ai-image-generator.p.rapidapi.com/aaaaaaaaaaaaaaaaaiimagegenerator/quick.php',
-        headers: {
-          'x-rapidapi-key': '2c3fda0ff6msh6926e8844972ba4p133430jsn84ae5e16bfba',
-          'x-rapidapi-host': 'ai-text-to-image-generator-api-ai-image-generator.p.rapidapi.com',
-          'Content-Type': 'application/json'
-        },
+      method: 'POST',
+      url: 'https://ai-text-to-image-generator-api-ai-image-generator.p.rapidapi.com/aaaaaaaaaaaaaaaaaiimagegenerator/quick.php',
+      headers: {
+        'x-rapidapi-key': '2f48880717msh20daff4f03e422bp16bd70jsn0091792cfa3e',
+        'x-rapidapi-host': 'ai-text-to-image-generator-api-ai-image-generator.p.rapidapi.com',
+        'Content-Type': 'application/json'
+      },
         data: {
           prompt: promt,
           style_id: 2,
