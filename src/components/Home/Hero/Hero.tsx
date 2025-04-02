@@ -127,7 +127,7 @@ const Hero = () => {
               <img
                 src={image}
                 alt="Generated content"
-                className="max-w-full h-[500px] rounded-lg "
+                className="max-w-full h-[500px] rounded-lg my-5 "
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-center justify-center">
