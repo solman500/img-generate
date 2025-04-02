@@ -122,7 +122,7 @@ const Hero = () => {
 
         {/* Generated Image */}
         {image && (
-          <div className="mt-8 flex flex-col items-center">
+          <div className="my-8 flex flex-col items-center">
             <div className="relative group">
               <img
                 src={image}
