@@ -48,10 +48,14 @@ const Price = () => {
 
         {/* --------------------------Card For Price ----------------------------- */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="">
+          <div   data-aos="fade-right"
+          data-aos-anchor-placment="top-center" className="">
             <PriceCard price="4" user="3" type="silver Pack" />
           </div>
-          <div className="">
+          <div data-aos="fade-right"
+          data-aos-anchor-placment="top-center"
+          data-aos-delay="100"
+          className="">
             <PriceCard price="6" user="10" type="Golden Pack" />
           </div>
         </div>

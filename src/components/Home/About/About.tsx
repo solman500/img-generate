@@ -7,7 +7,14 @@ const About = () => {
     <div className="py-16">
       <div className="w-[80%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
         {/* ------------------Images------------------------ */}
-        <div className="order-2 xl:order-1 ">
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placment="top-center"
+          className="order-2 xl:order-1
+         
+        
+        "
+        >
           <Image
             src={"/Images/about.jpg"}
             alt=""
